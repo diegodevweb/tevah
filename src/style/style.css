@@ -114,7 +114,7 @@ html {
 /*  Home   inicio  */
 .home {
   display: flex;
-  background: url(/src/assets/image/foto02.jpg) no-repeat;
+  background: url(/public/foto02.jpg) no-repeat;
   background-size: cover;
   height: 100vh;
   color: #525252;
@@ -362,15 +362,15 @@ h1 {
 
 
 .card:nth-of-type(1) .image-container {
-    background-image: url(/src/assets/image/dashboard.png);
+    background-image: url(/public/dashboard.png);
 }
  
 .card:nth-of-type(2) .image-container {
-  background-image: url(/src/assets/image/home.png)
+  background-image: url(/public/home.png)
 }
 
 .card:nth-of-type(3) .image-container {
-  background-image: url(/src/assets/image/attimo.png)
+  background-image: url(/public/attimo.png)
 }
 .card:nth-of-type(4) .image-container {
   background-image: url("https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")
